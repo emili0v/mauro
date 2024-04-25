@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estilos para el carousel slider */
+.carousel-inner {
+    max-height: 30rem;
+}
+
+/* Estilos para pantalla pequeña (responsive) */
+@media (max-width: 768px) {
+
+    #INTRO,
+    #Nosotros {
+        width: 90% !important;
+    }
+}
+
+/* Estilos para centrar las tarjetas en la página */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Ajusta la altura del contenedor al 100% del viewport */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra las columnas horizontalmente dentro de la fila */
+}
+
+.card {
+    width: 18rem;
+    margin: 30px;
+    /* Espacio entre las tarjetas */
+}
+
+/* Estilos para el formulario de contacto */
+#seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenedor-formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+/* Fondo del formulario de contacto */
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}

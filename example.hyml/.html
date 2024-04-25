@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Etiqueta head: contiene metadatos y enlaces a recursos externos -->
+
+    <!-- Metadatos requeridos -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Enlace al CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Enlace a tu propio CSS personalizado -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Título de la página -->
+    <title>Ritmo Latino</title>
+</head>
+
+<body>
+    <!-- Etiqueta body: contiene el contenido visible de la página -->
+
+    <!--======================================-->
+    <!-- ENCABEZADO -->
+    <!--======================================-->
+    <header class="container-fluid bg-success
+    d-flex justify-content-center align-items-center">
+        <!-- Encabezado de la página con fondo verde (bg-success) -->
+        <p class="text-light mb-0 p-2 fs-5">Vive la Música Urbana</p>
+        <!-- Párrafo centrado con texto blanco -->
+    </header>
+
+    <!--======================================-->
+    <!-- NAVBAR -->
+    <!--======================================-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!-- Barra de navegación (navbar) con fondo terciario (bg-body-tertiary) -->
+        <div class="container-fluid">
+            <!-- Contenedor fluido que ocupa todo el ancho disponible -->
+
+            <!-- Marca del navbar (logotipo) -->
+            <a class="navbar-brand" href="#">
+                <span class="text-success fs-4 fw-bold">Ritmo Latino</span>
+            </a>
+
+
+            <!-- Lista de elementos de navegación -->
+            <li class="nav-item">
+                <a class="nav-link active text-success fs-5" aria-current="page" href="#">
+                    <span class="text-success fs-5">Inicio</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-success fs-5" href="#">
+                    <span class="text-success fs-5">Contacto</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-success fs-5 disabled" aria-disabled="true">
+                    <span class="text-success fs-5">Nosotros</span>
+                </a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!--======================================-->
+    <!-- CAROUSEL -->
+    <!--======================================-->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carrusel de imágenes -->
+        <div class="carousel-inner">
+            <!-- Contenido del carrusel -->
+
+            <!-- Primera imagen del carrusel -->
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./img/slide2.1.jpg" class="d-block w-100" alt="slide2">
+            </div>
+
+            <!-- Segunda imagen del carrusel -->
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/slide1.1.jpg" class="d-block w-100" alt="slide1">
+            </div>
+
+            <!-- Tercera imagen del carrusel -->
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/slide3.3.jpg" class="d-block w-100" alt="slide3">
+            </div>
+        </div>
+
+        <!-- Controles de navegación del carrusel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--======================================-->
+    <!-- INTRO -->
+    <!--======================================-->
+    <section class="w-50 mx-auto text-center pt-3">
+        <!-- Sección de introducción centrada en la página -->
+        <h1 class="p-3 fs-2 border-top border-3">¡Experimenta la Revolución Musical! junto a la productora que ofrece
+            Eventos Inolvidables.</h1>
+        <!-- Título principal -->
+        <p class="p-1 fs-5"><span>Con Ritmo Latino</span>, explora un universo de pasión y pura adrenalina.
+            Cada concierto es una experiencia que despierta tus sentidos y te conecta con la esencia urbana.
+            ¡Prepárate para vivirlo al máximo!</p>
+        <!-- Texto descriptivo -->
+    </section>
+
+    <!--======================================-->
+    <!-- NOSOTROS -->
+    <!--======================================-->
+    <section>
+        <!-- Sección sobre nosotros -->
+        <div class="w-50 m-auto text-center" id="Nosotros">
+            <!-- Contenedor centrado -->
+            <h1 class="mb-3 fs-2">Sobre <span class="text-success">Ritmo Latino</span></h1>
+            <!-- Título -->
+            <p class="fs-4">Nuestro objetivo es transformar cada rincón de Chile en un escenario vibrante de música y
+                emoción.
+                Nos comprometemos a llevar la música urbana a las distintas ciudades y comunidades que conforman
+                nuestro país,
+                conectando a las personas con artistas y creando experiencias inolvidables que celebren la diversidad de
+                nuestra cultura.</p>
+            <!-- Descripción -->
+        </div>
+        <div class="mt-5 text-center">
+            <!-- Imagen centrada -->
+            <img class="img-fluid" src="./img/movistar arena2.png" alt="arena">
+            <!-- Imagen fluida -->
+        </div>
+    </section>
+
+    <!--======================================-->
+    <!-- Novedades y avances -->
+    <!--======================================-->
+    <section class="w-100 text-center py-5 custom-bg">
+        <!-- Sección de novedades y avances -->
+        <h2 class="mb-0">Novedades y Avances</h2>
+    </section>
+
+    <!--======================================-->
+    <!-- TARJETAS (CARDS) -->
+    <!--======================================-->
+    <div class="container mt-3">
+        <!-- Contenedor -->
+        <div class="row justify-content-center">
+            <!-- Fila de tarjetas centradas -->
+
+            <!-- Tarjeta 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/tarjeta1.jpg" class="card-img-top" alt="Imagen de Servicio 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Noticias / News</h5>
+                        <p class="card-text">Explora las últimas noticias y eventos en el emocionante mundo de la
+                            música urbana.
+                            Mantente al día con las novedades sobre artistas, conciertos y tendencias que están marcando
+                            el ritmo.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/tarjeta2.jpg" class="card-img-top" alt="Imagen de Servicio 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Próximos shows</h5>
+                        <p class="card-text">Descubre los próximos conciertos organizados por Ritmo Latino.
+                            Mantente al tanto de las fechas, lugares y ciudades donde podrás disfrutar de emocionantes
+                            conciertos y experiencias únicas.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/tarjeta3.jpg" class="card-img-top" alt="Imagen de Servicio 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Galería de Fotos</h5>
+                        <p class="card-text">Explora nuestra galería de imágenes y revive los mejores momentos de
+                            nuestros eventos. Descubre la pasión y la energía a través de fotografías
+                            que son capaces de transmitir historias.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--======================================-->
+    <!-- CONTACTO -->
+    <!--======================================-->
+    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+        <!-- Sección de contacto con borde inferior -->
+        <div id="bg-contacto">
+            <!-- Fondo del formulario -->
+        </div>
+
+        <!-- Contenedor del formulario -->
+        <div class="container" id="contenedor-formulario">
+            <div id="titulo-formulario" class="text-center mb-4">
+                <h2>Contactanos</h2>
+                <!-- Título del formulario -->
+                <p class="fs-5">Si estás interesado en recibir más información, con gusto te ayudaremos.</p>
+                <!-- Descripción del formulario -->
+            </div>
+
+            <!-- Formulario -->
+            <form action="">
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="email: nombre@correo.com" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="nombre" placeholder="nombre y apellido" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="texto" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Cierre de etiqueta body -->
+    <!--======================================-->
+    <!-- Bootstrap Bundle con Popper con integridad -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
